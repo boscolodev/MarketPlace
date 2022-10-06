@@ -1,8 +1,8 @@
 package dev.boscolo.mktuser.controller;
 
-import dev.boscolo.mktuser.dto.UserGetDTO;
-import dev.boscolo.mktuser.dto.UserInsertDTO;
-import dev.boscolo.mktuser.entities.User;
+import dev.boscolo.mktuser.model.dto.UserGetDTO;
+import dev.boscolo.mktuser.model.dto.UserInsertDTO;
+import dev.boscolo.mktuser.model.entities.User;
 import dev.boscolo.mktuser.services.UserService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -20,7 +20,6 @@ public class UserController {
     public UserController(UserService service) {
         this.service = service;
     }
-
 
     @GetMapping("/All")
     public List<UserGetDTO> findlAll() {

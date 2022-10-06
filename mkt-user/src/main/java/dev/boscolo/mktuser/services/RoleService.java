@@ -1,7 +1,7 @@
 package dev.boscolo.mktuser.services;
 
-import dev.boscolo.mktuser.dto.RoleDTO;
-import dev.boscolo.mktuser.entities.Role;
+import dev.boscolo.mktuser.model.dto.RoleDTO;
+import dev.boscolo.mktuser.model.entities.Role;
 import dev.boscolo.mktuser.exceptions.DatabaseException;
 import dev.boscolo.mktuser.exceptions.ResourceNotFoundException;
 import dev.boscolo.mktuser.repositories.RoleRepository;

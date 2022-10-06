@@ -9,16 +9,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mkt-user" />
         <module name="mkt-oauth" />
+        <module name="mkt-product" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mkt-oauth" target="11" />
+      <module name="mkt-product" target="11" />
       <module name="mkt-user" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mkt-oauth" options="-parameters" />
+      <module name="mkt-product" options="-parameters" />
       <module name="mkt-user" options="-parameters" />
     </option>
   </component>

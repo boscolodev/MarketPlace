@@ -1,7 +1,7 @@
 package dev.boscolo.mktuser.controller;
 
-import dev.boscolo.mktuser.dto.RoleDTO;
-import dev.boscolo.mktuser.entities.Role;
+import dev.boscolo.mktuser.model.dto.RoleDTO;
+import dev.boscolo.mktuser.model.entities.Role;
 import dev.boscolo.mktuser.services.RoleService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

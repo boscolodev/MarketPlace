@@ -1,7 +1,7 @@
 package dev.boscolo.mktuser.services;
 
-import dev.boscolo.mktuser.dto.UserInsertDTO;
-import dev.boscolo.mktuser.entities.User;
+import dev.boscolo.mktuser.model.dto.UserInsertDTO;
+import dev.boscolo.mktuser.model.entities.User;
 import dev.boscolo.mktuser.exceptions.DatabaseException;
 import dev.boscolo.mktuser.exceptions.ResourceNotFoundException;
 import dev.boscolo.mktuser.repositories.UserRepository;

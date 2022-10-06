@@ -1,6 +1,6 @@
 package dev.boscolo.mktuser.repositories;
 
-import dev.boscolo.mktuser.entities.User;
+import dev.boscolo.mktuser.model.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
