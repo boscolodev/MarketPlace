@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/mkt-oauth/pom.xml" />
         <option value="$PROJECT_DIR$/mkt-product/pom.xml" />
         <option value="$PROJECT_DIR$/mkt-sales/pom.xml" />
+        <option value="$PROJECT_DIR$/mkt-eureka/pom.xml" />
       </list>
     </option>
   </component>

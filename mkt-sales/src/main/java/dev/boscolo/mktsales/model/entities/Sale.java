@@ -23,6 +23,7 @@ public class Sale {
     private Long quantity;
     private Double productPrice;
     private String status;
+    private Double amount;
 
     public SaleGetDTO toDTO() {
         return MapperUtil.converte(this, SaleGetDTO.class);

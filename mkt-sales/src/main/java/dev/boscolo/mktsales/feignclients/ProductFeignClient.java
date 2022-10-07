@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient(name = "mkt-product", path = "/products",url = "http://localhost:8082")
 public interface ProductFeignClient {
 
-    @GetMapping
-    ProductGetDTO findAll();
-
     @GetMapping(consumes = "application/json", value = "/{id}")
     ProductGetDTO findById(@PathVariable Long id);
 

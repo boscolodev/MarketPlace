@@ -9,6 +9,8 @@ import dev.boscolo.mktsales.model.entities.Sale;
 import dev.boscolo.mktsales.model.entities.User;
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
+
 @Service
 public class SalesService {
 
@@ -27,13 +29,17 @@ public class SalesService {
         User user = userFeignClient.findByEmail(dto.getEmail()).toEntity();
         Product product = productFeignClient.findById(dto.getId()).toEntity();
         Sale sale = new Sale();
+        sale.setId(UUID.randomUUID().getLeastSignificantBits());
         sale.setClientEmail(user.getEmail());
         sale.setClientId(user.getId());
         sale.setClientName(user.getName());
         sale.setProductId(product.getId());
         sale.setProductPrice(product.getPrice());
         sale.setPruductName(product.getName());
+        sale.setQuantity(dto.getQuantity());
 
+        sale.setAmount(sale.calcAmount());
         return sale.toDTO();
     }
+
 }
