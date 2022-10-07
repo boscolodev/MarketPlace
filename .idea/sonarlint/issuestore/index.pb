@@ -399,8 +399,6 @@ O.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_4.xml
 O.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_1_4.xml,b\d\bd490b68048358bced7dd4721c6b0ccc31a2c897
 
 O.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_1_4.xml,a\1\a10ebadf0beb50faf85d495c771d600ce46fcf08
-r
-Bmkt-sales/src/main/java/dev/boscolo/mktsales/config/AppConfig.java,0\4\0452c4590ffb0a39cb43ae6b87dc57dea1748cdc
 z
 Jmkt-sales/src/main/java/dev/boscolo/mktsales/model/dto/CategoryGetDTO.java,9\6\96ab7a9ded71a9021f663bb835ead01b72312b28
 }
@@ -423,7 +421,5 @@ z
 Jmkt-sales/src/test/java/dev/boscolo/mktsales/MktSalesApplicationTests.java,7\a\7aaada08402c45543672e70051b9f112572c683a
 y
 Imkt-sales/src/main/java/dev/boscolo/mktsales/model/entities/Category.java,d\2\d2cc53248ec9ddfca5bb8c2fbac91b8b275fe137
-}
-Mmkt-sales/src/main/java/dev/boscolo/mktsales/controllers/SalesController.java,c\e\ce9481d20c4ca4012ba6dc11ed399ffadc5fbc84
 y
 Imkt-sales/src/main/java/dev/boscolo/mktsales/model/dto/UserInsertDTO.java,1\8\18806ba274ff1290cec79928e281a0bee0d950c5

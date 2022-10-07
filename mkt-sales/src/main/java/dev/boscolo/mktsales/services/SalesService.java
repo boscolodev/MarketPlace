@@ -38,7 +38,6 @@ public class SalesService {
         sale.setPruductName(product.getName());
         sale.setQuantity(dto.getQuantity());
 
-        sale.setAmount(sale.calcAmount());
         return sale.toDTO();
     }
 
